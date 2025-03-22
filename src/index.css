@@ -44,3 +44,7 @@ p {
 .ant-timeline-item-tail {
   border-inline-start-color: #cee0ef !important;
 }
+
+.title-flower::before {
+  background-image: url("src/assets/images/title-flower.png");
+}

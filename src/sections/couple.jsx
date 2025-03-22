@@ -1,6 +1,8 @@
 import { AiFillFacebook, AiFillTikTok } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
+import { bride, frameShape, groom } from "~/assets/images/couple";
+
 const coupleCenterImage =
   "https://lh3.googleusercontent.com/d/10moIBbW1QoePZXkYNF0sFyW8efjFyzaB";
 
@@ -16,7 +18,7 @@ const Couple = () => {
             <img
               className="rounded-full"
               decoding="async"
-              src="src/assets/images/couple/groom.png"
+              src={groom}
               alt="groom"
             />
           </div>
@@ -46,7 +48,7 @@ const Couple = () => {
           <img
             className="absolute"
             decoding="async"
-            src="src/assets/images/couple/fram-shape.png"
+            src={frameShape}
             alt="frame-img"
           />
         </div>
@@ -56,8 +58,8 @@ const Couple = () => {
             <img
               className="rounded-full mx-auto md:m-0"
               decoding="async"
-              src="src/assets/images/couple/bride.png"
-              alt=""
+              src={bride}
+              alt="bride"
             />
           </div>
           <h3 className="text-xl text-text font-bold my-4">Thanh Thủy</h3>

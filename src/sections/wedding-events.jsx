@@ -6,7 +6,7 @@ const WeddingEvents = () => {
     <section id="events" className="love-story py-10 px-4">
       <div className="container mx-auto">
         <div className="title-flower mb-5 text-center">
-          <h2 className="relative font-secondary text-4xl pt-10 md:pt-12 md:text-5xl before:bg-[url(src/assets/images/title-flower.png)] before:bg-cover before:absolute before:top-0 before:left-[calc(50%-47px)] before:w-24 before:h-11">
+          <h2 className="title-flower relative font-secondary text-4xl pt-10 md:pt-12 md:text-5xl before:bg-cover before:absolute before:top-0 before:left-[calc(50%-47px)] before:w-24 before:h-11">
             Wedding Events
           </h2>
 

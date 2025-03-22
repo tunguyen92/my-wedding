@@ -1,6 +1,8 @@
 import { ContactsOutlined, UserOutlined } from "@ant-design/icons";
 import { Button, Form, Input } from "antd";
 
+import { leftShape, rightShape } from "~/assets/images/rsvp";
+import sectionTitle from "~/assets/images/section-title.png";
 import { useAddWishMutation } from "~/services/wishesSlice";
 
 const normalizeText = (text) => text.replace(/\s+/g, " ").trim();
@@ -38,11 +40,7 @@ const Rsvp = () => {
                 Share Your Love
               </h2>
               <div className="relative mx-auto max-w-48 before:absolute before:w-16 before:md:w-24 before:h-[2px] before:bg-primary before:top-1/2 before:-left-6 before:md:-left-16 after:absolute after:w-16 after:md:w-24 after:h-[2px] after:bg-primary after:top-1/2 after:-right-6 after:md:-right-16">
-                <img
-                  className="mx-auto"
-                  src="src/assets/images/section-title.png"
-                  alt="flower"
-                />
+                <img className="mx-auto" src={sectionTitle} alt="flower" />
               </div>
             </div>
 
@@ -112,18 +110,10 @@ const Rsvp = () => {
           </div>
 
           <div className="vector-1 hidden md:block absolute bottom-0 -left-[68%]">
-            <img
-              decoding="async"
-              src="src/assets/images/rsvp/rsvp-left-shape.png"
-              alt=""
-            />
+            <img decoding="async" src={leftShape} alt="leftShape" />
           </div>
           <div className="vector-2 hidden md:block absolute top-0 -right-[38%] -z-10">
-            <img
-              decoding="async"
-              src="src/assets/images/rsvp/rsvp-right-shape.png"
-              alt=""
-            />
+            <img decoding="async" src={rightShape} alt="rightShape" />
           </div>
         </div>
       </div>

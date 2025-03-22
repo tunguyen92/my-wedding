@@ -3,12 +3,19 @@ import { PiCalendarHeartThin, PiHeartThin } from "react-icons/pi";
 import { LiaDoveSolid } from "react-icons/lia";
 import { GiDiamondRing } from "react-icons/gi";
 
+import {
+  story1,
+  story2,
+  story3,
+  story4,
+  timelineShape,
+} from "~/assets/images/story";
+
 const timelineItems = [
   {
     title: "First time we meet",
     text: "I must explain to you how all this mistaken idea of denouing pleasure and praising pain was born and I will give you com acount of system, the actual teach",
-    imgSrc:
-      "https://wpocean.com/wp/loveme/wp-content/uploads/2021/10/story-1.jpg",
+    imgSrc: story1,
     dot: (
       <div className="size-5 relative rounded-full border border-icon before:bg-icon before:rounded-full before:size-3.5 before:absolute before:top-0.5 before:left-0.5" />
     ),
@@ -17,8 +24,7 @@ const timelineItems = [
   {
     title: "First date",
     text: "I must explain to you how all this mistaken idea of denouing pleasure and praising pain was born and I will give you com acount of system, the actual teach",
-    imgSrc:
-      "https://wpocean.com/wp/loveme/wp-content/uploads/2021/10/story-2.jpg",
+    imgSrc: story2,
     dot: (
       <div className="rounded-full bg-icon-bg p-3">
         <PiCalendarHeartThin className="text-icon" size={20} />
@@ -29,8 +35,7 @@ const timelineItems = [
   {
     title: "Marriage Proposal",
     text: "I must explain to you how all this mistaken idea of denouing pleasure and praising pain was born and I will give you com acount of system, the actual teach",
-    imgSrc:
-      "https://wpocean.com/wp/loveme/wp-content/uploads/2021/10/story-3.jpg",
+    imgSrc: story3,
     dot: (
       <div className="rounded-full bg-icon-bg p-3">
         <LiaDoveSolid className="text-icon" size={20} />
@@ -41,7 +46,7 @@ const timelineItems = [
   {
     title: "Our Engagement",
     text: "I must explain to you how all this mistaken idea of denouing pleasure and praising pain was born and I will give you com acount of system, the actual teach",
-    imgSrc: "src/assets/images/story/story-4.jpg",
+    imgSrc: story4,
     dot: (
       <div className="rounded-full bg-icon-bg p-3">
         <GiDiamondRing className="text-icon" size={20} />
@@ -63,7 +68,7 @@ const LoveStory = () => {
     <section id="story" className="love-story text-center pt-20">
       <div className="container mx-auto">
         <div className="title-flower mb-5">
-          <h2 className="relative font-secondary text-4xl pt-10 md:pt-14 md:text-5xl before:bg-[url(src/assets/images/title-flower.png)] before:bg-cover before:absolute before:top-0 before:left-[calc(50%-47px)] before:w-24 before:h-11">
+          <h2 className="title-flower relative font-secondary text-4xl pt-10 md:pt-14 md:text-5xl before:bg-cover before:absolute before:top-0 before:left-[calc(50%-47px)] before:w-24 before:h-11">
             Our Love Story
           </h2>
 
@@ -121,8 +126,8 @@ const LoveStory = () => {
                       <img
                         decoding="async"
                         className="object-cover"
-                        src="https://wpocean.com/wp/loveme/wp-content/uploads/2021/10/timeline-shape.png"
-                        alt=""
+                        src={timelineShape}
+                        alt="timeline-shape"
                       />
                     </div>
                   </div>

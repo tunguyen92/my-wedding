@@ -1,6 +1,6 @@
 import { lazy, Suspense } from "react";
 
-const HomeCarousel = lazy(() => import("~/sections/carousel.jsx"));
+const HomeCarousel = lazy(() => import("~/sections/carousel"));
 const Header = lazy(() => import("~/sections/header.jsx"));
 const WeddingDate = lazy(() => import("~/sections/wedding-date"));
 const Couple = lazy(() => import("~/sections/couple"));
@@ -13,7 +13,7 @@ const Footer = lazy(() => import("~/sections/footer"));
 
 const App = () => {
   return (
-    <Suspense fallback={<div>Loskdfbskdbfsbdkfsbdfkjsb...............</div>}>
+    <Suspense fallback={<div>Loading...............</div>}>
       <HomeCarousel />
       <Header />
       <WeddingDate />

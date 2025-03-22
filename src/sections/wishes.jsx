@@ -2,6 +2,7 @@ import { Carousel } from "antd";
 import { RiDoubleQuotesL } from "react-icons/ri";
 
 import { useGetWishesQuery } from "~/services/wishesSlice";
+import testimonials from "~/assets/images/testimonials.jpg";
 
 const bestWishes = {
   status: "success",
@@ -72,7 +73,8 @@ const Wishes = () => {
   return (
     <section
       id="wishes"
-      className="wishes-section my-10 relative bg-[url(src/assets/images/testimonials.jpg)] bg-cover bg-center before:absolute before:top-0 before:left-0 before:bg-black/30 before:size-full before:backdrop-blur-[1px]"
+      className="wishes-section my-10 relative bg-cover bg-center before:absolute before:top-0 before:left-0 before:bg-black/30 before:size-full before:backdrop-blur-[1px]"
+      style={{ backgroundImage: `url(${testimonials})` }}
     >
       <div className="container mx-auto">
         <Carousel {...settings} arrows>

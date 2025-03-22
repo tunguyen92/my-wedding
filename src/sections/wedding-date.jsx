@@ -1,5 +1,7 @@
 import useCountdown from "~/hooks/useCountdown";
 
+import bgClock from "~/assets/images/clock-bg.png";
+
 const WeddingDate = () => {
   const { days, hours, minutes, seconds } = useCountdown("2025-04-05T11:00:00");
 
@@ -14,7 +16,7 @@ const WeddingDate = () => {
     <section id="date" className="wedding-date text-center py-20 lg:py-[90px]">
       <div className="container mx-auto">
         <div className="title-flower mb-10 md:mb-11">
-          <h2 className="relative font-secondary text-4xl pt-10 md:pt-14 md:text-5xl before:bg-[url(src/assets/images/title-flower.png)] before:bg-cover before:absolute before:top-0 before:left-[calc(50%-47px)] before:w-24 before:h-11">
+          <h2 className="title-flower relative font-secondary text-4xl pt-10 md:pt-14 md:text-5xl before:bg-cover before:absolute before:top-0 before:left-[calc(50%-47px)] before:w-24 before:h-11">
             Save The Date
           </h2>
         </div>
@@ -27,7 +29,8 @@ const WeddingDate = () => {
           {time.map((item) => (
             <div
               key={item.text}
-              className="box bg-[url(src/assets/images/clock-bg.png)] bg-center bg-cover size-28 md:size-32 lg:size-44 text-paragraph flex flex-col justify-center"
+              className="box bg-center bg-cover size-28 md:size-32 lg:size-44 text-paragraph flex flex-col justify-center"
+              style={{ backgroundImage: `url(${bgClock})` }}
             >
               <div className="time text-[#5880a2] font-secondary text-4xl lg:text-5xl mt-3">
                 {item.time}

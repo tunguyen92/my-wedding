@@ -1,10 +1,15 @@
 import { SmileOutlined } from "@ant-design/icons";
 
+import footerImage from "~/assets/images/footer-couple-name-frame.png";
+
 const Footer = () => {
   return (
     <footer className="footer-section py-24 text-center">
       <div className="container">
-        <div className="couple-name bg-[url(src/assets/images/footer-couple-name-frame.png)] bg-center bg-cover w-[300px] md:w-[415px] h-[349px] md:h-[483px] mx-auto mb-20 md:mb-32 pl-11 flex items-center justify-center">
+        <div
+          className="couple-name bg-center bg-cover w-[300px] md:w-[415px] h-[349px] md:h-[483px] mx-auto mb-20 md:mb-32 pl-11 flex items-center justify-center"
+          style={{ backgroundImage: `url(${footerImage})` }}
+        >
           <h2 className="font-secondary text-4xl md:text-5xl">
             Thanh Tú <br />
             &amp; <br />
