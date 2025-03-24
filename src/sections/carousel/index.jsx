@@ -1,6 +1,7 @@
 import { Carousel, Grid } from "antd";
 
 import { Arrow } from "~/components/arrow";
+import { img3109, img3148, img3284, img3338 } from "~/assets/images/album";
 import "./styles.css";
 
 const { useBreakpoint } = Grid;
@@ -31,6 +32,7 @@ const SlideContent = () => {
 
 const HomeCarousel = () => {
   const screens = useBreakpoint();
+  const isLargeScreens = screens.md;
 
   return (
     <Carousel
@@ -42,18 +44,25 @@ const HomeCarousel = () => {
       nextArrow={<Arrow />}
     >
       <div
-        className={`background-slide h-screen bg-[url(https://lh3.googleusercontent.com/d/1B6117thGv-CLUuPaArw93uXO9ju58Oal)] bg-cover bg-center relative before:bg-cover before:absolute before:size-18 sm:before:size-24 lg:before:size-36 before:left-5 sm:before:left-8 before:top-5 sm:before:top-8 before:z-10 after:bg-cover after:absolute after:size-18 sm:after:size-24 lg:after:size-36 after:right-5 sm:after:right-8 after:bottom-5 sm:after:bottom-8 after:z-10`}
+        className={`background-slide h-screen relative before:bg-cover before:absolute before:size-18 sm:before:size-24 lg:before:size-36 before:left-5 sm:before:left-8 before:top-5 sm:before:top-8 before:z-10 after:bg-cover after:absolute after:size-18 sm:after:size-24 lg:after:size-36 after:right-5 sm:after:right-8 after:bottom-5 sm:after:bottom-8 after:z-10`}
       >
+        <img src={img3284} alt="img3284" className="size-full object-cover" />
         <SlideContent />
       </div>
       <div
-        className={`background-slide h-screen bg-[url(https://lh3.googleusercontent.com/d/1ZXx3pwsG2eZL3SjQMwYA7Z8DbOO92VKF)] bg-cover bg-center relative before:bg-cover before:absolute before:size-18 sm:before:size-24 lg:before:size-36 before:left-5 sm:before:left-8 before:top-5 sm:before:top-8 before:z-10 after:bg-cover after:absolute after:size-18 sm:after:size-24 lg:after:size-36 after:right-5 sm:after:right-8 after:bottom-5 sm:after:bottom-8 after:z-10`}
+        className={`background-slide h-screen relative before:bg-cover before:absolute before:size-18 sm:before:size-24 lg:before:size-36 before:left-5 sm:before:left-8 before:top-5 sm:before:top-8 before:z-10 after:bg-cover after:absolute after:size-18 sm:after:size-24 lg:after:size-36 after:right-5 sm:after:right-8 after:bottom-5 sm:after:bottom-8 after:z-10`}
       >
+        <img src={img3109} alt="img3109" className="size-full object-cover" />
         <SlideContent />
       </div>
       <div
-        className={`background-slide h-screen bg-[url(https://lh3.googleusercontent.com/d/1sjH2jbcPl-H78MAQ0OXrOA0OB-Gp3BrN)] md:bg-[url(https://lh3.googleusercontent.com/d/1ZJ2ggktnoXE1ZX5ZQ2ZUKyOEQKS_M-ye)] bg-cover bg-center relative before:bg-cover before:absolute before:size-18 sm:before:size-24 lg:before:size-36 before:left-5 sm:before:left-8 before:top-5 sm:before:top-8 before:z-10 after:bg-cover after:absolute after:size-18 sm:after:size-24 lg:after:size-36 after:right-5 sm:after:right-8 after:bottom-5 sm:after:bottom-8 after:z-10`}
+        className={`background-slide h-screen relative before:bg-cover before:absolute before:size-18 sm:before:size-24 lg:before:size-36 before:left-5 sm:before:left-8 before:top-5 sm:before:top-8 before:z-10 after:bg-cover after:absolute after:size-18 sm:after:size-24 lg:after:size-36 after:right-5 sm:after:right-8 after:bottom-5 sm:after:bottom-8 after:z-10`}
       >
+        <img
+          src={isLargeScreens ? img3148 : img3338}
+          alt="img3109"
+          className="size-full object-cover"
+        />
         <SlideContent />
       </div>
     </Carousel>

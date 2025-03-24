@@ -23,7 +23,7 @@ const Rsvp = () => {
       await addWish(newWish).unwrap(); // Ensures promise resolves or rejects
       form.resetFields();
 
-      alert("Post added successfully!");
+      alert("Gửi lời chúc thành công. Cảm ơn bạn!");
     } catch (error) {
       console.error("Failed to add wish:", error);
     }

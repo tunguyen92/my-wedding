@@ -1,37 +1,107 @@
 import { Image } from "antd";
+import {
+  img2924,
+  img2968,
+  img3025,
+  img3088,
+  img3111,
+  img3137,
+  img3142,
+  img3148,
+  img3157,
+  img3177,
+  img3209,
+  img3254,
+  img3270,
+  img3277,
+  img3284,
+  img3295,
+  img3313,
+  img3389,
+  img3434,
+  img3435,
+} from "~/assets/images/album";
 
 const galleries = [
   {
-    src: "https://themegeniuslab.com/html/pretty/assets/images/gallery/img-1.jpg",
-    alt: "gallery1",
+    src: img2924,
+    alt: "gallery101",
   },
   {
-    src: "https://themegeniuslab.com/html/pretty/assets/images/gallery/img-2.jpg",
-    alt: "gallery2",
+    src: img2968,
+    alt: "gallery102",
   },
   {
-    src: "https://themegeniuslab.com/html/pretty/assets/images/gallery/img-3.jpg",
-    alt: "gallery3",
+    src: img3025,
+    alt: "gallery103",
   },
   {
-    src: "https://themegeniuslab.com/html/pretty/assets/images/gallery/img-4.jpg",
-    alt: "gallery4",
+    src: img3111,
+    alt: "gallery104",
   },
   {
-    src: "https://themegeniuslab.com/html/pretty/assets/images/gallery/img-5.jpg",
-    alt: "gallery5",
+    src: img3137,
+    alt: "gallery105",
   },
   {
-    src: "https://themegeniuslab.com/html/pretty/assets/images/gallery/img-6.jpg",
-    alt: "gallery6",
+    src: img3177,
+    alt: "gallery106",
   },
   {
-    src: "https://themegeniuslab.com/html/pretty/assets/images/gallery/img-7.jpg",
-    alt: "gallery7",
+    src: img3209,
+    alt: "gallery107",
   },
   {
-    src: "https://themegeniuslab.com/html/pretty/assets/images/gallery/img-8.jpg",
-    alt: "gallery8",
+    src: img3270,
+    alt: "gallery108",
+  },
+  {
+    src: img3295,
+    alt: "gallery109",
+  },
+  {
+    src: img3313,
+    alt: "gallery110",
+  },
+  {
+    src: img3389,
+    alt: "gallery111",
+  },
+  {
+    src: img3435,
+    alt: "gallery112",
+  },
+  {
+    src: img3088,
+    alt: "gallery201",
+  },
+  {
+    src: img3142,
+    alt: "gallery202",
+  },
+  {
+    src: img3148,
+    alt: "gallery203",
+  },
+  {
+    src: img3157,
+    alt: "gallery204",
+  },
+  {
+    src: img3254,
+    alt: "gallery205",
+  },
+  {
+    src: img3277,
+    alt: "gallery206",
+  },
+  {
+    src: img3284,
+    alt: "gallery207",
+  },
+  {
+    src: img3434,
+    alt: "gallery208",
   },
 ];
 
@@ -59,7 +129,7 @@ const Gallery = () => {
             {galleries.map((item, index) => (
               <div key={item.alt + index} className="group overflow-hidden">
                 <Image
-                  className="transition-transform duration-500 ease-in-out group-hover:scale-120 group-hover:-rotate-3"
+                  className="transition-transform  !max-h-1/2 duration-500 ease-in-out group-hover:scale-120 group-hover:-rotate-3"
                   src={item.src}
                   alt={item.alt}
                 />

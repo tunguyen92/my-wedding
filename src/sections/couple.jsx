@@ -1,10 +1,7 @@
 import { AiFillFacebook, AiFillTikTok } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
-import { bride, frameShape, groom } from "~/assets/images/couple";
-
-const coupleCenterImage =
-  "https://lh3.googleusercontent.com/d/10moIBbW1QoePZXkYNF0sFyW8efjFyzaB";
+import { bride, frameShape, groom, img3322 } from "~/assets/images/couple";
 
 const Couple = () => {
   return (
@@ -12,7 +9,7 @@ const Couple = () => {
       id="couple"
       className="couple-section container py-0 md:py-10 mx-auto"
     >
-      <div className="couple-area flex flex-col md:flex-row px-2.5 md:px-10">
+      <div className="couple-area flex flex-col md:items-center md:flex-row px-2.5 md:px-10">
         <div className="groom m-0 md:mr-6 text-center md:text-right">
           <div className="relative mx-auto md:ml-auto md:mr-0 w-max before:absolute before:left-[5px] before:top-[5px] before:size-[90px] before:rounded-full before:z-10 before:border-[1px] before:border-white">
             <img
@@ -42,7 +39,7 @@ const Couple = () => {
             className="rounded-[235px] w-4/5 xl:w-[66%]"
             decoding="async"
             loading="lazy"
-            src={coupleCenterImage}
+            src={img3322}
             alt="middle-couple"
           />
           <img
@@ -54,7 +51,7 @@ const Couple = () => {
         </div>
 
         <div className="bride md:ml-6 text-center md:text-left">
-          <div className="relative before:absolute before:left-[5px] before:top-[5px] before:size-[90px] before:rounded-full before:z-10 before:border-[1px] before:border-white">
+          <div className="relative before:absolute before:top-1/2 md:before:top-[5px] before:left-1/2 md:before:left-[5px] before:-translate-1/2 before:md:translate-0 before:size-[90px] before:rounded-full before:z-10 before:border-[1px] before:border-white">
             <img
               className="rounded-full mx-auto md:m-0"
               decoding="async"

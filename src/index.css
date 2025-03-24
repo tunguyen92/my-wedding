@@ -16,6 +16,14 @@
     url("src/assets/fonts/GreatVibes-Regular.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Great Vibes"),
+    url("src/assets/fonts/Montserrat-Regular.ttf") format("truetype");
+}
+
 @theme {
   --font-primary: "Muli", "sans-serif";
   --font-secondary: "Great Vibes", "cursive";
@@ -47,4 +55,9 @@ p {
 
 .title-flower::before {
   background-image: url("src/assets/images/title-flower.png");
+}
+
+.invite-friend {
+  font-family: "Montserrat", sans-serif;
+  color: #98907e;
 }

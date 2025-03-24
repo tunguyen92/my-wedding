@@ -1,29 +1,15 @@
 import { lazy, Suspense } from "react";
-
-const HomeCarousel = lazy(() => import("~/sections/carousel"));
-const Header = lazy(() => import("~/sections/header.jsx"));
-const WeddingDate = lazy(() => import("~/sections/wedding-date"));
-const Couple = lazy(() => import("~/sections/couple"));
-const LoveStory = lazy(() => import("~/sections/love-story"));
-const WeddingEvents = lazy(() => import("~/sections/wedding-events"));
-const Wishes = lazy(() => import("~/sections/wishes"));
-const Gallery = lazy(() => import("~/sections/gallery"));
-const Rsvp = lazy(() => import("~/sections/rsvp"));
-const Footer = lazy(() => import("~/sections/footer"));
+import { Route, Routes } from "react-router-dom";
+const HomePage = lazy(() => import("~/pages/home"));
+const InvitationPage = lazy(() => import("~/pages/invitation"));
 
 const App = () => {
   return (
     <Suspense fallback={<div>Loading...............</div>}>
-      <HomeCarousel />
-      <Header />
-      <WeddingDate />
-      <Couple />
-      <LoveStory />
-      <WeddingEvents />
-      <Wishes />
-      <Gallery />
-      <Rsvp />
-      <Footer />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/invitation/:id" element={<InvitationPage />} />
+      </Routes>
     </Suspense>
   );
 };
