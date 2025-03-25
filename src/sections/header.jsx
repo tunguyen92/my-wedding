@@ -46,7 +46,7 @@ const Header = () => {
       <nav className="bg-white border-gray-200 px-4 md:px-6 py-4 lg:py-5">
         <div className="flex justify-between items-center mx-auto max-w-screen-xl">
           <a
-            className="navbar-brand text-text font-secondary text-2xl lg:text-3xl"
+            className="navbar-brand text-text font-great-vibes text-2xl lg:text-3xl"
             href="#"
           >
             Tú <i className="fi flaticon-spring ml-1" /> Thủy

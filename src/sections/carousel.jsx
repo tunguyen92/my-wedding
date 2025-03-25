@@ -21,7 +21,7 @@ const SlideContent = () => {
           </text>
         </svg>
       </h3>
-      <h2 className="couple-name font-secondary text-5xl md:text-6xl lg:text-7xl text-white [text-shadow:_0px_4px_0px_rgba(0_0_0/_0.35)]">
+      <h2 className="couple-name font-great-vibes text-5xl md:text-6xl lg:text-7xl text-white [text-shadow:_0px_4px_0px_rgba(0_0_0/_0.35)]">
         {screens.md && "Thanh"} Tú &nbsp;&&nbsp; {screens.md && "Thanh"} Thủy
       </h2>
     </div>

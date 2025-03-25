@@ -21,9 +21,11 @@ const Invitation = () => {
         src={screens.md ? invitationDesktop : invitationMobile}
         alt="invitation"
       />
-      <div className="absolute top-[62%] left-1/6 md:top-[54%] md:left-[29%] md:text-2xl text-[#98907e]">
+      <div className="absolute top-[61.6%] left-[10%] md:top-[53%] md:left-[27%] md:text-2xl text-[#98907e]">
         Trân trọng kính mời:
-        <span className="text-[#3a5852] ml-2 md:ml-16">{id} + ...</span>
+        <span className="font-corinthia text-3xl md:text-5xl text-[#3a5852] ml-2 md:ml-14">
+          {id} + ...
+        </span>
       </div>
 
       <a

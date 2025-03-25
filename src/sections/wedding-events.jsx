@@ -8,7 +8,7 @@ const WeddingEvents = () => {
     <section id="events" className="love-story py-10 px-4">
       <div className="container mx-auto">
         <div className="title-flower mb-5 text-center">
-          <h2 className="title-flower relative font-secondary text-4xl pt-10 md:pt-12 md:text-5xl before:bg-cover before:absolute before:top-0 before:left-[calc(50%-47px)] before:w-24 before:h-11">
+          <h2 className="title-flower relative font-great-vibes text-4xl pt-10 md:pt-12 md:text-5xl before:bg-cover before:absolute before:top-0 before:left-[calc(50%-47px)] before:w-24 before:h-11">
             Wedding Events
           </h2>
 
@@ -50,7 +50,7 @@ const WeddingEvents = () => {
             </p>
             <a
               className="see-location-btn flex items-center gap-2 uppercase text-xs md:text-sm font-bold py-2 md:py-3 px-4 md:px-6 border md:border-2 border-primary rounded-4xl w-fit"
-              href="https://maps.app.goo.gl/CRZeH8QPVFSftj6t8"
+              href="https://maps.app.goo.gl/YkYZcGfhmwfGMc1a7"
               target="_blank"
             >
               See location <FaArrowRight className="text-icon" size={20} />

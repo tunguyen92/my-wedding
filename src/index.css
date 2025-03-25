@@ -16,9 +16,18 @@
     url("src/assets/fonts/GreatVibes-Regular.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Corinthia";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Corinthia"),
+    url("src/assets/fonts/Corinthia-Regular.ttf") format("truetype");
+}
+
 @theme {
-  --font-primary: "Muli", "sans-serif";
-  --font-secondary: "Great Vibes", "cursive";
+  --font-muli: "Muli", "sans-serif";
+  --font-great-vibes: "Great Vibes", "cursive";
+  --font-corinthia: "Corinthia", "cursive";
   --color-primary: #86a0b6;
   --color-text: #002642;
   --color-paragraph: #848892;

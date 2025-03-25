@@ -13,7 +13,7 @@ import {
 
 const timelineItems = [
   {
-    title: "First time we meet",
+    title: "Lần đầu gặp nhau",
     text: "Chúng mình gặp nhau một cách thật tình cờ trong buổi gặp gỡ cùng bạn bè. Từ những câu chuyện xã giao ban đầu, dần dần chúng mình nói cười nhiều hơn. Và có lẽ, ngay khoảnh khắc đó, một điều gì đó đẹp đẽ đã bắt đầu.",
     imgSrc: story1,
     dot: (
@@ -22,7 +22,7 @@ const timelineItems = [
     alignment: "left",
   },
   {
-    title: "First date",
+    title: "Hẹn hò đầu tiên",
     text: "Sau khi bày tỏ tình cảm và được đáp lại, chúng mình có buổi hẹn đầu tiên. Chút hồi hộp, chút ngại ngùng, nhưng chỉ cần có nhau là đủ. Một khởi đầu nhẹ nhàng, nhưng đầy ý nghĩa.",
     imgSrc: story2,
     dot: (
@@ -33,7 +33,7 @@ const timelineItems = [
     alignment: "right",
   },
   {
-    title: "Marriage Proposal",
+    title: "Cầu hôn",
     text: "Từ hai con người xa lạ, chúng ta dần trở thành một phần quan trọng trong cuộc sống của nhau. Và giờ đây, một chương mới lại mở ra, nơi chúng ta không chỉ đồng hành mà còn cùng nhau xây dựng một tương lai chung.",
     imgSrc: story3,
     dot: (
@@ -44,7 +44,7 @@ const timelineItems = [
     alignment: "left",
   },
   {
-    title: "Our Engagement",
+    title: "Đính hôn",
     text: "Cuối cùng khoảnh khắc đặc biệt cũng đã đến. Cảm ơn vì chúng ta luôn bên nhau, cùng chia sẻ niềm vui, nỗi buồn và những giấc mơ. Không chỉ là người yêu, chúng ta còn là những người bạn, những tri kỷ cùng đồng hành. Hôm nay là một dấu mốc ý nghĩa, và chặng đường phía trước chắc chắn sẽ còn nhiều điều tuyệt vời hơn nữa. Chúc mừng chúng ta!",
     imgSrc: story4,
     dot: (
@@ -68,7 +68,7 @@ const LoveStory = () => {
     <section id="story" className="love-story text-center pt-20">
       <div className="container mx-auto">
         <div className="title-flower mb-5">
-          <h2 className="title-flower relative font-secondary text-4xl pt-10 md:pt-14 md:text-5xl before:bg-cover before:absolute before:top-0 before:left-[calc(50%-47px)] before:w-24 before:h-11">
+          <h2 className="title-flower relative font-great-vibes text-4xl pt-10 md:pt-14 md:text-5xl before:bg-cover before:absolute before:top-0 before:left-[calc(50%-47px)] before:w-24 before:h-11">
             Our Love Story
           </h2>
 
