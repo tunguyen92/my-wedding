@@ -46,5 +46,5 @@ p {
 }
 
 .title-flower::before {
-  background-image: url("src/assets/images/title-flower.png");
+  background-image: url("/images/title-flower.png");
 }

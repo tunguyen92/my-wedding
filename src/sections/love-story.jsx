@@ -14,7 +14,7 @@ import {
 const timelineItems = [
   {
     title: "First time we meet",
-    text: "I must explain to you how all this mistaken idea of denouing pleasure and praising pain was born and I will give you com acount of system, the actual teach",
+    text: "Chúng mình gặp nhau một cách thật tình cờ trong buổi gặp gỡ cùng bạn bè. Từ những câu chuyện xã giao ban đầu, dần dần chúng mình nói cười nhiều hơn. Và có lẽ, ngay khoảnh khắc đó, một điều gì đó đẹp đẽ đã bắt đầu.",
     imgSrc: story1,
     dot: (
       <div className="size-5 relative rounded-full border border-icon before:bg-icon before:rounded-full before:size-3.5 before:absolute before:top-0.5 before:left-0.5" />
@@ -23,7 +23,7 @@ const timelineItems = [
   },
   {
     title: "First date",
-    text: "I must explain to you how all this mistaken idea of denouing pleasure and praising pain was born and I will give you com acount of system, the actual teach",
+    text: "Sau khi bày tỏ tình cảm và được đáp lại, chúng mình có buổi hẹn đầu tiên. Chút hồi hộp, chút ngại ngùng, nhưng chỉ cần có nhau là đủ. Một khởi đầu nhẹ nhàng, nhưng đầy ý nghĩa.",
     imgSrc: story2,
     dot: (
       <div className="rounded-full bg-icon-bg p-3">
@@ -34,7 +34,7 @@ const timelineItems = [
   },
   {
     title: "Marriage Proposal",
-    text: "I must explain to you how all this mistaken idea of denouing pleasure and praising pain was born and I will give you com acount of system, the actual teach",
+    text: "Từ hai con người xa lạ, chúng ta dần trở thành một phần quan trọng trong cuộc sống của nhau. Và giờ đây, một chương mới lại mở ra, nơi chúng ta không chỉ đồng hành mà còn cùng nhau xây dựng một tương lai chung.",
     imgSrc: story3,
     dot: (
       <div className="rounded-full bg-icon-bg p-3">
@@ -45,7 +45,7 @@ const timelineItems = [
   },
   {
     title: "Our Engagement",
-    text: "I must explain to you how all this mistaken idea of denouing pleasure and praising pain was born and I will give you com acount of system, the actual teach",
+    text: "Cuối cùng khoảnh khắc đặc biệt cũng đã đến. Cảm ơn vì chúng ta luôn bên nhau, cùng chia sẻ niềm vui, nỗi buồn và những giấc mơ. Không chỉ là người yêu, chúng ta còn là những người bạn, những tri kỷ cùng đồng hành. Hôm nay là một dấu mốc ý nghĩa, và chặng đường phía trước chắc chắn sẽ còn nhiều điều tuyệt vời hơn nữa. Chúc mừng chúng ta!",
     imgSrc: story4,
     dot: (
       <div className="rounded-full bg-icon-bg p-3">
@@ -95,7 +95,7 @@ const LoveStory = () => {
                       {title}
                     </h3>
                     <p
-                      className={`text-paragraph leading-7 ${
+                      className={`text-paragraph leading-7 md:!text-lg ${
                         alignment === "right" ? "pr-20" : "pl-20"
                       }`}
                     >

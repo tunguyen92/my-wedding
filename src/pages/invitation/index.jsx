@@ -1,9 +1,11 @@
 import { Grid } from "antd";
-import { useParams } from "react-router-dom";
+import { NavLink, useParams } from "react-router-dom";
+
 import {
   invitationDesktop,
   invitationMobile,
 } from "~/assets/images/invitation";
+import AudioPlayer from "~/components/audio-player";
 
 const { useBreakpoint } = Grid;
 
@@ -19,25 +21,27 @@ const Invitation = () => {
         src={screens.md ? invitationDesktop : invitationMobile}
         alt="invitation"
       />
-      <div className="absolute top-[69%] left-[10%] md:top-[54%] md:left-[26%] md:text-2xl text-[#98907e]">
+      <div className="absolute top-[62%] left-1/6 md:top-[54%] md:left-[29%] md:text-2xl text-[#98907e]">
         Trân trọng kính mời:
-        <span className="text-[#3a5852] ml-2 md:ml-10">{id} + ...</span>
+        <span className="text-[#3a5852] ml-2 md:ml-16">{id} + ...</span>
       </div>
 
       <a
-        className="absolute bottom-[12%] md:bottom-[10%] lg:bottom-[10%] left-[50%] -translate-x-1/2 text-xs md:text-sm lg:text-base underline text-[#295c53]"
+        className="absolute bottom-[10%] md:bottom-[10%] lg:bottom-[10%] left-[50%] -translate-x-1/2 text-xs md:text-sm lg:text-base underline text-[#295c53]"
         href="https://maps.app.goo.gl/hTtW5Kz1ZEy5nW5s7"
         target="_blank"
       >
         Xem chỉ đường
       </a>
 
-      <a
-        href="/"
+      <NavLink
+        to="/"
         className="absolute bottom-[3%] left-[50%] -translate-x-1/2 text-white! bg-[#98907e]! rounded-md text-sm px-4 py-1 mt-4 mx-auto text-center"
       >
         Về trang chủ
-      </a>
+      </NavLink>
+
+      <AudioPlayer />
     </div>
   );
 };

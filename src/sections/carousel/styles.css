@@ -1,7 +1,0 @@
-.background-slide::before {
-  background-image: url("src/assets/images/carousel/slide-top-arrow.png");
-}
-
-.background-slide::after {
-  background-image: url("src/assets/images/carousel/slide-bottom-arrow.png");
-}

@@ -9,7 +9,7 @@ const Couple = () => {
       id="couple"
       className="couple-section container py-0 md:py-10 mx-auto"
     >
-      <div className="couple-area flex flex-col md:items-center md:flex-row px-2.5 md:px-10">
+      <div className="couple-area grid grid-cols-1 md:grid-cols-3 md:items-center px-2.5 md:px-10">
         <div className="groom m-0 md:mr-6 text-center md:text-right">
           <div className="relative mx-auto md:ml-auto md:mr-0 w-max before:absolute before:left-[5px] before:top-[5px] before:size-[90px] before:rounded-full before:z-10 before:border-[1px] before:border-white">
             <img
@@ -21,8 +21,17 @@ const Couple = () => {
           </div>
           <h3 className="text-xl text-text font-bold my-4">Thanh Tú</h3>
           <p className="text-paragraph leading-7">
-            Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-            maecenas accumsan lacus vel facilisis give you com of system.
+            Chú rể là một chàng trai đến từ vùng biển nắng gió Bình Định, hiện
+            đang là lập trình viên làm việc tại TP.HCM. Được biết đến là người
+            trầm tính, ít nói nhưng chân thành, hòa đồng và dễ gần. Trong công
+            việc cũng như cuộc sống, luôn chu đáo, cẩn thận và không ngừng học
+            hỏi. Hạnh phúc với chú rể đơn giản là có một gia đình nhỏ ấm áp,
+            bình yên bên những người thương yêu.
+            <br />
+            <span className="italic">"The purpose of life is to be happy"</span>
+            <br />
+            Như Đức Đạt Lai Lạt Ma từng nói, mục đích của cuộc đời là để được
+            hạnh phúc – và đó cũng là điều mà bản thân luôn hướng đến.
           </p>
           <div className="social flex justify-center md:justify-end mt-4 md:mt-9">
             <Link to="https://www.facebook.com/tu.kantee" target="_blank">
@@ -34,9 +43,9 @@ const Couple = () => {
           </div>
         </div>
 
-        <div className="middle-couple-pic flex items-center justify-center mx-auto my-14 relative w-full sm:w-[60%] md:w-[250%] lg:w-[125%]">
+        <div className="middle-couple-pic flex items-center justify-center mx-auto my-14 relative w-full ">
           <img
-            className="rounded-[235px] w-4/5 xl:w-[66%]"
+            className="rounded-[235px] w-4/5"
             decoding="async"
             loading="lazy"
             src={img3322}
@@ -61,8 +70,20 @@ const Couple = () => {
           </div>
           <h3 className="text-xl text-text font-bold my-4">Thanh Thủy</h3>
           <p className="text-paragraph leading-7">
-            Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-            maecenas accumsan lacus vel facilisis give you com of system.
+            Cô dâu là một cô gái nhỏ nhắn đến từ vùng quê Bình Định, mang trong
+            mình nhiều hoài bão và ước mơ. Được biết đến là người cởi mở, hòa
+            đồng, luôn vui vẻ và sẵn sàng giúp đỡ mọi người. Hiện đang là quản
+            lý của một công ty nhỏ tại Đồng Nai, công việc tuy bận rộn nhưng
+            mang lại nhiều cơ hội để học hỏi, thử thách chính mình và không
+            ngừng tiến về phía trước. Đối với cô dâu, hạnh phúc không chỉ là
+            những thành tựu cá nhân mà còn là sự đồng hành, sẻ chia cùng một
+            người có thể thấu hiểu và cùng nhau xây dựng một tương lai bền vững.
+            Châm ngôn sống:
+            <span className="italic">
+              "Tương lai tươi sáng là kết quả cho những nỗ lực không ngừng nghỉ
+              ở hiện tại"
+            </span>
+            .
           </p>
           <div className="social flex justify-center md:justify-normal mt-4 md:mt-9">
             <Link

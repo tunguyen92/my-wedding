@@ -38,10 +38,13 @@ const WeddingEvents = () => {
               </li>
             </ul>
             <p className="text-paragraph my-4">
-              Chúng mình rất mong chờ sự hiện diện của bạn trong ngày trọng đại
-              này! Hãy cùng nhau tạo nên những kỷ niệm đáng nhớ.
+              Đây là khoảnh khắc ý nghĩa khi gia đình hai bên thể hiện lòng
+              thành kính đối với tổ tiên và đánh dấu cột mốc ý nghĩa trong ngày
+              trọng đại. Gia đình kính mời các bậc trưởng bối, cô chú và các bạn
+              đến dự, cùng nhau chứng giám và gửi lời chúc phúc cho đôi uyên
+              ương.
               <br />
-              🎩 Trang phục: Lịch sự, trang nhã.
+              👔 Trang phục: Lịch sự, trang nhã.
               <br />⏳ Lưu ý: Vui lòng có mặt đúng giờ để không bỏ lỡ khoảnh
               khắc quan trọng.
             </p>
@@ -71,16 +74,19 @@ const WeddingEvents = () => {
                 Giang
               </li>
               <li className="flex items-center gap-2">
-                <CiClock2 className="text-icon" /> 05/04/2025 (11h00)
+                <CiClock2 className="text-icon" /> 05/04/2025 (10h00)
               </li>
             </ul>
             <p className="text-paragraph my-4">
-              Chúng mình rất mong chờ sự hiện diện của bạn trong ngày trọng đại
-              này. Mong bạn sẽ đến chung vui cùng chúng mình nhé!
+              Bữa tiệc là dịp để cùng nhau chia sẻ niềm vui, tận hưởng không
+              gian ấm cúng và tạo nên những kỷ niệm đáng nhớ. Rất mong bạn sẽ có
+              mặt để chung vui và góp phần làm cho ngày đặc biệt này thêm trọn
+              vẹn!
               <br />
-              🎩 Trang phục: Lịch sự, trang nhã.
-              <br />⏳ Lưu ý: Vui lòng có mặt đúng giờ để không bỏ lỡ khoảnh
-              khắc quan trọng.
+              👗 Trang phục: Lịch sự, trang nhã.
+              <br />
+              🎉 Lưu ý: Vui lòng có mặt đúng giờ để không bỏ lỡ khoảnh khắc quan
+              trọng.
             </p>
             <a
               className="see-location-btn flex items-center gap-2 uppercase text-xs md:text-sm font-bold py-2 md:py-3 px-4 md:px-6 border md:border-2 border-primary rounded-4xl w-fit"

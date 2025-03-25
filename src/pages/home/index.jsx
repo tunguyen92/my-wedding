@@ -1,3 +1,4 @@
+import AudioPlayer from "~/components/audio-player";
 import HomeCarousel from "~/sections/carousel";
 import Couple from "~/sections/couple";
 import Footer from "~/sections/footer";
@@ -22,6 +23,8 @@ const HomePage = () => {
       <Gallery />
       <Rsvp />
       <Footer />
+
+      <AudioPlayer />
     </>
   );
 };
