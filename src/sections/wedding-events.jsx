@@ -17,7 +17,7 @@ const WeddingEvents = () => {
           </div>
         </div>
 
-        <div className="flex flex-col md:flex-row gap-7">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-7">
           <div className="location mb-4 md:mb-0">
             <div className="relative before:absolute before:rounded-lg before:border-2 before:border-white/50 before:top-4 before:left-4 before:size-[calc(100%-32px)]">
               <img
@@ -53,7 +53,7 @@ const WeddingEvents = () => {
               href="https://maps.app.goo.gl/YkYZcGfhmwfGMc1a7"
               target="_blank"
             >
-              See location <FaArrowRight className="text-icon" size={20} />
+              Xem chỉ đường <FaArrowRight className="text-icon" size={20} />
             </a>
           </div>
 
@@ -93,7 +93,7 @@ const WeddingEvents = () => {
               href="https://maps.app.goo.gl/hTtW5Kz1ZEy5nW5s7"
               target="_blank"
             >
-              See location <FaArrowRight className="text-icon" size={20} />
+              Xem chỉ đường <FaArrowRight className="text-icon" size={20} />
             </a>
           </div>
         </div>

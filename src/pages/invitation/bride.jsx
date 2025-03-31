@@ -9,7 +9,7 @@ import AudioPlayer from "~/components/audio-player";
 
 const { useBreakpoint } = Grid;
 
-const Invitation = () => {
+const BrideInvitation = () => {
   const screens = useBreakpoint();
 
   const { id } = useParams();
@@ -84,4 +84,4 @@ const Invitation = () => {
   );
 };
 
-export default Invitation;
+export default BrideInvitation;

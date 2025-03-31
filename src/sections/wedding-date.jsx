@@ -22,7 +22,7 @@ const WeddingDate = () => {
         </div>
 
         <h3 className="inline-block italic relative text-text text-xl md:text-2xl lg:text-3xl before:bg-primary before:w-10 before:h-[1px] before:absolute before:top-1/2 before:-left-14  after:bg-primary after:w-10 after:h-[1px] after:absolute after:top-1/2 after:-right-14">
-          05 Apr 2025
+          05 - 04 - 2025
         </h3>
 
         <div className="clock m-auto grid grid-cols-2 md:grid-cols-4 gap-5 lg:gap-8 w-max mt-5">
