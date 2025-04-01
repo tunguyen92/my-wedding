@@ -3,13 +3,13 @@ import useCountdown from "~/hooks/useCountdown";
 import bgClock from "~/assets/images/clock-bg.png";
 
 const WeddingDate = () => {
-  const { days, hours, minutes, seconds } = useCountdown("2025-04-05T11:00:00");
+  const { days, hours, minutes, seconds } = useCountdown("2025-04-05T10:00:00");
 
   const time = [
-    { text: "Days", time: days },
-    { text: "Hours", time: hours },
-    { text: "Mins", time: minutes },
-    { text: "Secs", time: seconds },
+    { text: "Ngày", time: days },
+    { text: "Giờ", time: hours },
+    { text: "Phút", time: minutes },
+    { text: "Giây", time: seconds },
   ];
 
   return (
