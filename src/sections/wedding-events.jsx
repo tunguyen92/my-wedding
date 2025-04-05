@@ -31,10 +31,10 @@ const WeddingEvents = () => {
             </h3>
             <ul className="text-sm text-paragraph">
               <li className="flex items-center gap-2 mb-2">
-                <CiLocationOn className="text-icon" /> Tại gia, Tây Giang
+                <CiLocationOn className="text-icon" /> Tại gia, Nhơn Hải
               </li>
               <li className="flex items-center gap-2">
-                <CiClock2 className="text-icon" /> 05/04/2025 (8h00)
+                <CiClock2 className="text-icon" /> 06/04/2025 (8h00)
               </li>
             </ul>
             <p className="text-paragraph my-4">
@@ -50,7 +50,7 @@ const WeddingEvents = () => {
             </p>
             <a
               className="see-location-btn flex items-center gap-2 uppercase text-xs md:text-sm font-bold py-2 md:py-3 px-4 md:px-6 border md:border-2 border-primary rounded-4xl w-fit"
-              href="https://maps.app.goo.gl/YkYZcGfhmwfGMc1a7"
+              href="https://maps.app.goo.gl/gm7eGaAUUT9VLFgp9"
               target="_blank"
             >
               Xem chỉ đường <FaArrowRight className="text-icon" size={20} />
@@ -70,8 +70,8 @@ const WeddingEvents = () => {
             </h3>
             <ul className="text-sm text-paragraph">
               <li className="flex items-center gap-2 mb-2">
-                <CiLocationOn className="text-icon" /> Nhà hàng Đoàn Sáng, Tây
-                Giang
+                <CiLocationOn className="text-icon" /> Nhà hàng M & Tôi, Nhơn
+                Hải
               </li>
               <li className="flex items-center gap-2">
                 <CiClock2 className="text-icon" /> 05/04/2025 (10h00)
@@ -90,7 +90,7 @@ const WeddingEvents = () => {
             </p>
             <a
               className="see-location-btn flex items-center gap-2 uppercase text-xs md:text-sm font-bold py-2 md:py-3 px-4 md:px-6 border md:border-2 border-primary rounded-4xl w-fit"
-              href="https://maps.app.goo.gl/hTtW5Kz1ZEy5nW5s7"
+              href="https://maps.app.goo.gl/Kq2h4yj3QncsTyxL6"
               target="_blank"
             >
               Xem chỉ đường <FaArrowRight className="text-icon" size={20} />
