@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="container">
         <div className="px-4">
           <div className="font-corinthia text-5xl">Lời nhắn</div>
-          <div className="text-paragraph text-justify">
+          <div className="text-paragraph text-justify md:text-center">
             "Bất kể bạn học chuyên ngành gì, nhất định khi tìm việc phải tìm một
             công việc mình yêu thích, làm thật giỏi và tạo ra giá trị. Như vậy
             bạn mới có thể vui vẻ đi làm từ sáng đến tối được. Thêm nữa, hãy tìm

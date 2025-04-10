@@ -13,7 +13,7 @@ import {
 
 const timelineItems = [
   {
-    title: "Lần đầu gặp nhau",
+    title: "First time we meet",
     text: "Chúng mình gặp nhau một cách thật tình cờ trong buổi gặp gỡ cùng bạn bè. Từ những câu chuyện xã giao ban đầu, dần dần chúng mình nói cười nhiều hơn. Và có lẽ, ngay khoảnh khắc đó, một điều gì đó đẹp đẽ đã bắt đầu.",
     imgSrc: story1,
     dot: (
@@ -22,7 +22,7 @@ const timelineItems = [
     alignment: "left",
   },
   {
-    title: "Hẹn hò đầu tiên",
+    title: "First Date",
     text: "Sau khi bày tỏ tình cảm và được đáp lại, chúng mình có buổi hẹn đầu tiên. Chút hồi hộp, chút ngại ngùng, nhưng chỉ cần có nhau là đủ. Một khởi đầu nhẹ nhàng, nhưng đầy ý nghĩa.",
     imgSrc: story2,
     dot: (
@@ -33,7 +33,7 @@ const timelineItems = [
     alignment: "right",
   },
   {
-    title: "Cầu hôn",
+    title: "Marriage Proposal",
     text: "Từ hai con người xa lạ, chúng ta dần trở thành một phần quan trọng trong cuộc sống của nhau. Và giờ đây, một chương mới lại mở ra, nơi chúng ta không chỉ đồng hành mà còn cùng nhau xây dựng một tương lai chung.",
     imgSrc: story3,
     dot: (
@@ -44,7 +44,7 @@ const timelineItems = [
     alignment: "left",
   },
   {
-    title: "Đính hôn",
+    title: "Our Engagement",
     text: "Cuối cùng khoảnh khắc đặc biệt cũng đã đến. Cảm ơn vì chúng ta luôn bên nhau, cùng chia sẻ niềm vui, nỗi buồn và những giấc mơ. Không chỉ là người yêu, chúng ta còn là những người bạn, những tri kỷ cùng đồng hành. Hôm nay là một dấu mốc ý nghĩa, và chặng đường phía trước chắc chắn sẽ còn nhiều điều tuyệt vời hơn nữa. Chúc mừng chúng ta!",
     imgSrc: story4,
     dot: (

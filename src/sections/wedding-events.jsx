@@ -31,7 +31,8 @@ const WeddingEvents = () => {
             </h3>
             <ul className="text-sm text-paragraph">
               <li className="flex items-center gap-2 mb-2">
-                <CiLocationOn className="text-icon" /> Tại gia, Nhơn Hải
+                <CiLocationOn className="text-icon" /> Tại gia, TP. Quy Nhơn,
+                Bình Định
               </li>
               <li className="flex items-center gap-2">
                 <CiClock2 className="text-icon" /> 06/04/2025 (8h00)
@@ -70,11 +71,11 @@ const WeddingEvents = () => {
             </h3>
             <ul className="text-sm text-paragraph">
               <li className="flex items-center gap-2 mb-2">
-                <CiLocationOn className="text-icon" /> Nhà hàng M & Tôi, Nhơn
-                Hải
+                <CiLocationOn className="text-icon" /> Nhà hàng Keeng, TT. Long
+                Thành, Đồng Nai
               </li>
               <li className="flex items-center gap-2">
-                <CiClock2 className="text-icon" /> 05/04/2025 (10h00)
+                <CiClock2 className="text-icon" /> 26/04/2025 (18h00)
               </li>
             </ul>
             <p className="text-paragraph my-4">
@@ -90,7 +91,7 @@ const WeddingEvents = () => {
             </p>
             <a
               className="see-location-btn flex items-center gap-2 uppercase text-xs md:text-sm font-bold py-2 md:py-3 px-4 md:px-6 border md:border-2 border-primary rounded-4xl w-fit"
-              href="https://maps.app.goo.gl/Kq2h4yj3QncsTyxL6"
+              href="https://maps.app.goo.gl/T138MSvWYCfuPFQf9"
               target="_blank"
             >
               Xem chỉ đường <FaArrowRight className="text-icon" size={20} />

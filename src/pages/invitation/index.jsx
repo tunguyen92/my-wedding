@@ -64,8 +64,8 @@ const BrideInvitation = () => {
         </div>
 
         <a
-          className="absolute bottom-[10%] md:bottom-[10%] lg:bottom-[10%] left-[50%] -translate-x-1/2 text-xs md:text-sm lg:text-base underline text-[#295c53]"
-          href="https://maps.app.goo.gl/hTtW5Kz1ZEy5nW5s7"
+          className="absolute bottom-[10%] md:bottom-[10%] lg:bottom-[7%] left-[50%] -translate-x-1/2 text-xs md:text-sm lg:text-base underline text-[#295c53]"
+          href="https://maps.app.goo.gl/T138MSvWYCfuPFQf9"
           target="_blank"
         >
           Xem chỉ đường
@@ -73,7 +73,7 @@ const BrideInvitation = () => {
 
         <NavLink
           to="/"
-          className="absolute bottom-[3%] left-[50%] -translate-x-1/2 text-white! bg-[#98907e]! rounded-md text-sm px-4 py-1 mt-4 mx-auto text-center"
+          className="absolute bottom-[3%] md:bottom-2 left-[50%] -translate-x-1/2 text-white! bg-[#98907e]! rounded-md text-sm px-4 py-1 mt-4 mx-auto text-center"
         >
           Về trang chủ
         </NavLink>

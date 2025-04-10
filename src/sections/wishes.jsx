@@ -47,7 +47,7 @@ const Wishes = () => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 3,
-    adaptiveHeight: true,
+    // adaptiveHeight: true,
     responsive: [
       {
         breakpoint: 1024,
@@ -79,14 +79,14 @@ const Wishes = () => {
       <div className="container mx-auto">
         <Carousel {...settings} arrows>
           {data?.data?.map((item, index) => (
-            <div key={item.name + index} className="p-10 align-middle!">
+            <div key={item.name + index} className="p-10">
               <div className="relative text-white rounded-2xl border border-white p-5">
                 <div className="quote">
                   <RiDoubleQuotesL
                     className="text-text absolute top-0 left-0 -z-10"
                     size={50}
                   />
-                  <p className="italic">{item.wishes}</p>
+                  <p className="italic text-justify">{item.wishes}</p>
                 </div>
 
                 <div className="text-center mt-2">
