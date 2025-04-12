@@ -35,7 +35,7 @@ const WeddingEvents = () => {
                 Bình Định
               </li>
               <li className="flex items-center gap-2">
-                <CiClock2 className="text-icon" /> 06/04/2025 (8h00)
+                <CiClock2 className="text-icon" /> 06/04/2025 (08h00)
               </li>
             </ul>
             <p className="text-paragraph my-4">
@@ -75,7 +75,7 @@ const WeddingEvents = () => {
                 Thành, Đồng Nai
               </li>
               <li className="flex items-center gap-2">
-                <CiClock2 className="text-icon" /> 26/04/2025 (18h00)
+                <CiClock2 className="text-icon" /> 26/04/2025 (19h00)
               </li>
             </ul>
             <p className="text-paragraph my-4">
