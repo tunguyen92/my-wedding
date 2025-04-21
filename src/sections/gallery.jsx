@@ -20,6 +20,10 @@ import {
   img3389,
   img3434,
   img3435,
+  img2945,
+  img3000,
+  img8938,
+  img3354,
 } from "~/assets/images/album";
 
 const galleries = [
@@ -28,8 +32,16 @@ const galleries = [
     alt: "gallery101",
   },
   {
+    src: img2945,
+    alt: "gallery2945",
+  },
+  {
     src: img2968,
     alt: "gallery102",
+  },
+  {
+    src: img3000,
+    alt: "gallery3000",
   },
   {
     src: img3025,
@@ -64,11 +76,19 @@ const galleries = [
     alt: "gallery110",
   },
   {
+    src: img3354,
+    alt: "gallery111",
+  },
+  {
     src: img3389,
     alt: "gallery111",
   },
   {
     src: img3435,
+    alt: "gallery112",
+  },
+  {
+    src: img8938,
     alt: "gallery112",
   },
   {
