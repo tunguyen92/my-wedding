@@ -5,7 +5,7 @@
   font-family: "Muli";
   font-style: normal;
   font-weight: normal;
-  src: local("Muli"), url("src/assets/fonts/Muli-Regular.woff") format("woff");
+  src: local("Muli"), url("/fonts/Muli-Regular.woff") format("woff");
 }
 
 @font-face {
@@ -13,7 +13,7 @@
   font-style: normal;
   font-weight: normal;
   src: local("Great Vibes"),
-    url("src/assets/fonts/GreatVibes-Regular.ttf") format("truetype");
+    url("/fonts/GreatVibes-Regular.ttf") format("truetype");
 }
 
 @font-face {
@@ -21,7 +21,7 @@
   font-style: normal;
   font-weight: normal;
   src: local("Corinthia"),
-    url("src/assets/fonts/Corinthia-Regular.ttf") format("truetype");
+    url("/fonts/Corinthia-Regular.ttf") format("truetype");
 }
 
 @theme {
